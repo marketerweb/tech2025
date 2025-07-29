@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CarSale Colombia</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo">🚗 CarSale Colombia</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="catalogo.html">Catálogo</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="inicio">
+    <section class="descripcion">
+      <h1>Bienvenidos a CarSale Colombia</h1>
+      <img src="ferrari.jpg" alt="Ferrari Rojo" class="ferrari" height="200" width="500" />
+      <p>
+        Somos una empresa dedicada a la venta de vehículos de alta gama y última tecnología. <br>
+        <strong>Misión:</strong> Ofrecer a nuestros clientes el mejor portafolio automotriz del país. <br>
+        <strong>Visión:</strong> Ser líderes en innovación y servicio automotriz en Colombia para 2030.
+      </p>
+    </section>
+    
+    <section class="galeria">
+      <h2>Galería de Autos</h2>
+      <a href="catalogo.html" class="boton-ir">Ver los últimos modelos</a>
+    </section>
+  </main>
+
+  <footer id="contacto">
+    <h2>Contáctanos</h2>
+    <form>
+      <label for="nombre">Nombre completo:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="correo">Correo electrónico:</label>
+      <input type="email" id="correo" name="correo" required>
+
+      <label for="telefono">Teléfono:</label>
+      <input type="tel" id="telefono" name="telefono" required>
+
+      <label for="marca">Marca de carro favorita:</label>
+      <input type="text" id="marca" name="marca">
+
+      <button type="submit">Registrarse al chat de autos</button>
+    </form>
+
+    <p class="footer-info">📍 Bogotá, Colombia | 📞 +57 300 123 4567 | ✉️ info@carsale.com</p>
+    <p class="footer-copy">&copy; 2025 CarSale Colombia. Todos los derechos reservados.</p>
+  </footer>
+</body>
